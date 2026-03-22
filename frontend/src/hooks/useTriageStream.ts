@@ -30,7 +30,7 @@ export function useTriageStream() {
     setError(null); 
 
     try {
-      const response = await fetch('http://localhost:8080/api/triage', {
+      const response = await fetch('https://ai-triage-api-roman-epa4c3bgenhag4es.centralus-01.azurewebsites.net/api/triage', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ clinicalText: inputText }),
