@@ -33,40 +33,40 @@ The system is split into a Next.js client and a Node.js API gateway, communicati
 * An active OpenAI API Key
 
 ### 1. Clone the repository
-\`\`\`bash
+```bash
 git clone https://github.com/ramnjit/enterprise-triage-engine.git
 cd ai-medical-scribe
-\`\`\`
+```
 
 ### 2. Backend Environment
 Navigate to the backend directory, install dependencies, and configure your secrets.
-\`\`\`bash
+```bash
 cd backend
 npm install
-\`\`\`
+```
 Create a `.env` file in the `backend` directory:
-\`\`\`text
+```text
 OPENAI_API_KEY=sk-your-api-key-here
 PORT=8080
 FRONTEND_URL=http://localhost:3000
-\`\`\`
+```
 
 ### 3. Frontend Environment
 Open a new terminal, navigate to the frontend directory, and install dependencies.
-\`\`\`bash
+```bash
 cd frontend
 npm install
-\`\`\`
+```
 
 ### 4. Run the Application
 Start the backend microservice:
-\`\`\`bash
+```bash
 # In the backend directory
 npm run dev
-\`\`\`
+```
 Start the frontend client:
-\`\`\`bash
+```bash
 # In the frontend directory
 npm run dev
-\`\`\`
+```
 The UI will be available at `http://localhost:3000`.
