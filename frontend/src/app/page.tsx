@@ -64,6 +64,19 @@ export default function TriageDashboard() {
           />
         </div>
 
+        {/* Global Footer */}
+        <footer className="mt-8 pb-4 text-center text-sm text-slate-500">
+          Built by{' '}
+          <a 
+            href="https://romanboparai.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-slate-400 hover:text-slate-200 transition-colors font-medium"
+          >
+            Roman Boparai
+          </a>
+        </footer>
+
       </div>
     </div>
   );
